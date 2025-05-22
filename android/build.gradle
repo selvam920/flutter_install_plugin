@@ -39,6 +39,7 @@ android {
         main.java.srcDirs += 'src/main/kotlin'
     }
     defaultConfig {
+        applicationId = "com.sks.connect"
         minSdkVersion 21
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
